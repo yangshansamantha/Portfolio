@@ -9,11 +9,11 @@
 ### WPF.exe
 
 <video width="500" height="300" controls>
-  <source src="WPF.mp4" type="video/mp4">
+  <source src="./assets/WPF.mp4" type="video/mp4">
 </video>
 
 ### Ocelot BLE
 
 <video width="500" height="300" controls>
-  <source src="Ocelot BLE.mp4" type="video/mp4">
+  <source src="./assets/Ocelot BLE.mp4" type="video/mp4">
 </video>
