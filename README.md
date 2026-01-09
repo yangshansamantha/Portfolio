@@ -8,12 +8,5 @@
 
 ### WPF.exe
 
-<video width="500" height="300" controls>
-  <source src="./assets/WPF.mp4" type="video/mp4">
-</video>
-
+[Video_title]([Your_UrlPath_For_Video](https://drive.google.com/file/d/1Mtzrvhbw0YyrHbRCKYfETkKpDZ0IyHzf/view?usp=drive_link))
 ### Ocelot BLE
-
-<video width="500" height="300" controls>
-  <source src="./assets/Ocelot BLE.mp4" type="video/mp4">
-</video>
