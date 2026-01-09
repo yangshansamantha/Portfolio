@@ -1,1 +1,19 @@
-# -Portfolio
+## Portfolio
+
+| 專案名稱   | OS                   | IDE                | 說明                                                    |
+| :--------- | :------------------- | :----------------- | :------------------------------------------------------ |
+| WPF.exe    | Window               | Visual Studio 2022 | WPF 專案<br>1. UI、動畫展示<br>2. 藍芽連/斷線、讀寫功能 |
+| Ocelot BLE | Android、IOS、Window | Unity              | Unity 2D App<br>藍芽設備讀寫應用程式                    |
+| CSS        | --                   | CodePen            | css 特效、切版<br>[CodePen](https://codepen.io/YuShanS) |
+
+### WPF.exe
+
+<video width="500" height="300" controls>
+  <source src="WPF.mp4" type="video/mp4">
+</video>
+
+### Ocelot BLE
+
+<video width="500" height="300" controls>
+  <source src="Ocelot BLE.mp4" type="video/mp4">
+</video>
