@@ -7,6 +7,6 @@
 | CSS        | --                   | CodePen            | css 特效、切版<br>[CodePen](https://codepen.io/YuShanS) |
 
 ### WPF.exe
+[Video_title](https://drive.google.com/file/d/1o_hN3jHcdQcwPQEclmidXpK5IAhHVlvo/view?usp=drive_link)
 
-[Video_title]([Your_UrlPath_For_Video](https://drive.google.com/file/d/1Mtzrvhbw0YyrHbRCKYfETkKpDZ0IyHzf/view?usp=drive_link))
 ### Ocelot BLE
