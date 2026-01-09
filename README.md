@@ -7,13 +7,6 @@
 | CSS        | --                   | CodePen            | css 特效、切版<br>[CodePen](https://codepen.io/YuShanS) |
 
 ### WPF.exe
-
-<video width="500" height="300" controls>
-  <source src="./assets/WPF.mp4" type="video/mp4">
-</video>
+[Video_title](https://drive.google.com/file/d/1o_hN3jHcdQcwPQEclmidXpK5IAhHVlvo/view?usp=drive_link)
 
 ### Ocelot BLE
-
-<video width="500" height="300" controls>
-  <source src="./assets/Ocelot BLE.mp4" type="video/mp4">
-</video>
