@@ -1,6 +1,6 @@
 ﻿services:
   api:
-    image: samantha33/aspnetcore-self-api
+    image: samantha33/aspnetcore-self-api:v1.0
     ports: 
       - 7104:8080
     container_name: api
