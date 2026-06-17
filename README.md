@@ -19,3 +19,6 @@ https://github.com/user-attachments/assets/375a1824-301e-40ca-bfd0-dd08fa7e9883
 https://github.com/user-attachments/assets/3bde98c5-a307-47d7-8ff5-9ebbdf2b7509
 
 [**Asp .Net APi**](https://github.com/yangshansamantha/Portfolio/blob/main/Asp%20.Net%20Core.mp4)
+
+1. 下載`docker-compose.yml`
+2. `docker-compose up -d`

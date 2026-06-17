@@ -1,0 +1,47 @@
+﻿services:
+  api:
+    image: samantha33/aspnetcore-self-api
+    ports: 
+      - 7104:8080
+    container_name: api
+    depends_on:
+      mssql:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_started
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development 
+      - LOGGING__LOGLEVEL__DEFAULT=Information
+      - LOGGING__LOGLEVEL__MICROSOFT.ASPNETCORE=Warning
+      - ALLOWEDHOSTS=*
+      - CONNECTIONSTRINGS__ASP=Server=mssql,1433;User Id=sa;Password=rootMyAspWebCorePassword!;Database=Asp;TrustServerCertificate=true 
+      - JWT__ISSUER=https://localhost:7104
+      - JWT__AUDIENCE=https://localhost:7104
+      - JWT__KEY=ThisIsMySuperLongAndSecretKeyForJwtValidation2026!
+      - RABBITMQ__HOST=rabbitmq
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:4.0-management
+    ports:
+      - 5672:5672
+      - 15672:15672
+
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    ports:
+      - 1433:1433
+    container_name: mssql
+    hostname: mssql
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=rootMyAspWebCorePassword!
+    healthcheck:
+      test: ["CMD", "/opt/mssql-tools18/bin/sqlcmd", "-S", "localhost", "-U", "sa", "-P", "rootMyAspWebCorePassword!", "-Q", "SELECT 1", "-C"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+networks:
+  app-network:
+    driver: bridge
+
